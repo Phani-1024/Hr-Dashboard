@@ -2,6 +2,9 @@
 
 A modern HR Management Dashboard built with Next.js, TypeScript, and Tailwind CSS.
 
+## Live Demo
+[View Live Demo](https://frontend-dashboard-4qgy7nvqy-ram-charans-projects-33516711.vercel.app)
+
 ## Features
 
 - 🔐 User Authentication with Context API and LocalStorage
@@ -41,7 +44,7 @@ frontend-assignment/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/ramcharan0308/frontend-dashboard.git
 cd frontend-assignment
 ```
 
