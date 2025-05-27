@@ -2,17 +2,15 @@
 
 A modern HR Management Dashboard built with Next.js, TypeScript, and Tailwind CSS.
 
-## Live Demo
-[View Live Demo](https://frontend-dashboard-4qgy7nvqy-ram-charans-projects-33516711.vercel.app)
 
 ## Features
 
-- 🔐 User Authentication with Context API and LocalStorage
-- 📊 Interactive Dashboard with Statistics
-- 👥 Employee Management System
-- 📋 Candidate Tracking with ATS Scores
-- 📱 Fully Responsive Design
-- 🎨 Modern UI with Tailwind CSS
+-  User Authentication with Context API and LocalStorage
+-  Interactive Dashboard with Statistics
+-  Employee Management System
+-  Candidate Tracking with ATS Scores
+-  Fully Responsive Design
+-  Modern UI with Tailwind CSS
 
 ## Tech Stack
 
@@ -40,43 +38,6 @@ frontend-assignment/
 └── tailwind.config.js   # Tailwind configuration
 ```
 
-## Getting Started
-
-1. Clone the repository:
-```bash
-git clone https://github.com/ramcharan0308/frontend-dashboard.git
-cd frontend-assignment
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Deployment
-
-### Deploying to Vercel
-
-1. Push your code to GitHub
-2. Visit [Vercel](https://vercel.com)
-3. Import your repository
-4. Deploy with default settings
-
-### Deploying to Netlify
-
-1. Push your code to GitHub
-2. Visit [Netlify](https://netlify.com)
-3. Connect your repository
-4. Configure build settings:
-   - Build command: `npm run build`
-   - Publish directory: `out`
 
 ## Development Approach
 
@@ -142,14 +103,6 @@ npm run dev
 - Implement data persistence
 - Add more data visualization
 
-## Contributing
 
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
 
-## License
 
-This project is licensed under the MIT License.
