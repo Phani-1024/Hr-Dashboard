@@ -1,6 +1,12 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
+  basePath: "/Hr-Dashboard",
+  assetPrefix: "/Hr-Dashboard/",
+};
 
-module.exports = nextConfig 
+module.exports = nextConfig;

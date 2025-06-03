@@ -2,11 +2,12 @@
   "name": "frontend-assignment",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Phani-1024.github.io/Hr-Dashboard",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "next build && next export",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
@@ -22,6 +23,7 @@
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "autoprefixer": "^10.4.14",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.8.3"
